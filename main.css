@@ -1,0 +1,137 @@
+:root{
+ --text-color:         #333;  
+  --background:        #fafafa;
+    
+  --btn:         white;
+  --btn-accent:  #bbb;
+  --btn-text:    black;
+}
+
+
+
+
+
+body{
+    font-family: Roboto, Sans serif;
+    color: var(--text-color);
+    background: var(--background);
+}
+
+
+
+
+
+
+header{
+    height: 4em;
+}
+
+
+
+
+
+
+main{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+.pages-list{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* btn */
+.pages-list li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 20px 0;
+    
+    background: var(--btn);
+    
+    border:  1px  solid #aaa;
+    box-shadow: 3px 3px 3px #eee;
+}
+
+.pages-list li:hover{
+    background: var(--btn-accent);
+}
+
+.pages-list a{
+    color: var(--btn-text);
+    text-decoration: none;
+    font-weight: 450;
+    
+    display: block;
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    padding: 1.1em;    
+}
+
+
+
+
+
+
+
+h1{margin-bottom: 1em;}
+
+h2{ margin-top: 2.0em;}
+
+h3{margin-top: 1.5em;}
+
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+
+    height: 2em;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    
+    text-align: center;    
+}
+
+
+
+footer a{
+    font-size: 1rem;
+    color: gray;
+    text-decoration: none
+}
+
+/* для ссылки в самом низу страницы */
+.github-link{
+    margin-top: 5em;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    
+    body, li{
+        font-size: 30px;
+    }
+    
+    h1{
+        font-size: 36px; 
+        line-height: 0.9em;
+        color: #666;
+    }
+    
+    h2{
+        font-size: 40px;
+    }
+    
+}
