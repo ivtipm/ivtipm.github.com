@@ -1,0 +1,27 @@
+/* Кнопка ведущая на раздел (репозиторий) */
+
+.section-button{
+    margin: 20px 0;
+    
+    background: var(--btn);
+    
+    border: 1px  solid #aaa;
+    box-shadow: 3px 3px 3px #eee;
+    
+    color: var(--btn-text);
+    
+    font-weight: 450;
+}
+
+
+.section-button a{
+    display: block;
+    height: 100%;
+    width: 100%;
+     padding: 1.1em;    
+}
+
+
+.section-button:hover{
+    background: var(--btn-accent);
+}

@@ -1,0 +1,24 @@
+header{
+    height: 4em;
+}
+
+
+main{
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+
+    height: 2em;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    
+    text-align: center;    
+}

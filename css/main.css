@@ -1,3 +1,7 @@
+@import "layout.css";
+@import "modules.css"; 
+
+
 :root{
  --text-color:         #333;  
   --background:        #fafafa;
@@ -19,23 +23,6 @@ body{
 
 
 
-
-
-
-header{
-    height: 4em;
-}
-
-
-
-
-
-
-main{
-    width: 1000px;
-    height: 100%;
-    margin: auto;
-}
 
 
 .sections-list{
@@ -61,31 +48,7 @@ a{
 }
 
 
-.section-button{
-    margin: 20px 0;
-    
-    background: var(--btn);
-    
-    border: 1px  solid #aaa;
-    box-shadow: 3px 3px 3px #eee;
-    
-    color: var(--btn-text);
-    
-    font-weight: 450;
-}
 
-
-.section-button a{
-    display: block;
-    height: 100%;
-    width: 100%;
-     padding: 1.1em;    
-}
-
-
-.section-button:hover{
-    background: var(--btn-accent);
-}
 
 
 
@@ -102,17 +65,7 @@ h3{margin-top: 1.5em;}
 
 
 
-footer{
-    position: absolute;
-    bottom: 0;
 
-    height: 2em;
-    width: 100%;
-    margin: auto;
-    margin-top: 50px;
-    
-    text-align: center;    
-}
 
 
 
